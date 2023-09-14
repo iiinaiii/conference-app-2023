@@ -122,4 +122,5 @@ public val dataModule: Module = module {
     singleOf(::DefaultContributorsRepository) bind ContributorsRepository::class
     singleOf(::DefaultStaffRepository) bind StaffRepository::class
     singleOf(::DefaultSponsorsRepository) bind SponsorsRepository::class
+    singleOf(::DefaultAchievementRepository) bind AchievementRepository::class
 }
